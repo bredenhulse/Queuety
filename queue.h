@@ -40,7 +40,7 @@ class queue{
       int * bigger, *temp;
       bigger = new int [s];
       for(int i = 0; i < size; i++){
-        bigger[i] = a[i];
+        bigger[i] = a[i + 1];
       }
       temp = a;
       a = bigger;
