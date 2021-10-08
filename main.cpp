@@ -14,7 +14,7 @@ int main() {
     test.push(2);
     test.push(3);
     test.push(4);
-    test.pop();
     while(!test.isEmpty()){
+      cout << test.pop();
     }
   }

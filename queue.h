@@ -12,10 +12,10 @@ class queue{
       a[size - 1] = x;
     }
     int ppop(){
-      //get last index
-      int last = a[size - 1];
+      //get first index
+      int first = a[0];
       reservepop(size - 1);
-      return last;
+      return first;
     }
     //Reserve for Push
     void reservepush(int s){
