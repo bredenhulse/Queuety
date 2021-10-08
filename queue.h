@@ -1,10 +1,10 @@
-//Stack class implementation
+//Queue class implementation
 
 using namespace std;
 
 class queue{
   private: //Member variables
-    int size; //Size of stack
+    int size; //Size of Queue
     int * a; //Pointer to dynamically allocate array
     bool empty;
     void ppush(int x){
